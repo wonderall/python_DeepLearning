@@ -8,6 +8,6 @@ print(student_data.head())
 print(student_data.describe())
 
 student_corr = student_data.corr( ) # 상관관계(correlation) 분석
-student_corr
+print(student_corr)
 sns.heatmap(student_corr, annot = True)
 plt.show()
